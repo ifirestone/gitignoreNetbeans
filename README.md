@@ -1,2 +1,24 @@
 # gitignoreNetbeans
 GitIgnore for netbeans on Mac
+
+# Netbeans Standard Files
+**/nbproject/private/ 
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Personal Use Files Extensions, like license files and so
+*.your_extension
+
+# General SWAP/Backup Files
+*.so
+*.log
+*.out
+*~
+*.swp
+*.DS_Store
+*.lock
